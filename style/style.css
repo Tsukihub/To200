@@ -1,0 +1,26 @@
+li
+{
+	background-color: grey;
+	height: 38px;
+	width: 38px;
+	border: 2px solid black;
+	border-radius: 3px;
+
+}
+
+ul{
+	list-style: none;
+	display: flex;
+
+}
+	
+h1 
+{
+	text-align: center;
+	font-weight: normal;
+	color: sandybrown;
+
+
+
+}
+li:nth-child(2n+2){background-color: sandybrown;}
