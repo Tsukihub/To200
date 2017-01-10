@@ -1,22 +1,38 @@
+*{background-color: lightgrey;}
 li
 {
+	background-color: grey;
+	height: 40px;
+	width: 40px;
+	border: 0.5px solid black;
+	border-radius: 3px;
+	
+
+}
+
+ul{
+	list-style: none;
+	display: flex;
+	flex-wrap: wrap;
+	color: black;
+	font-size: 10px;
+	padding: 20px;
+	justify-content: center;
+
+
+
+}
+li
+{	display: flex;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
 	background-color: grey;
 	height: 39.5px;
 	width: 39.5px;
 	border: 0.5px solid black;
 	border-radius: 3px;
-
-}
-
-ol{
-	list-style-position:inside;
-	display: flex;
-	flex-wrap: wrap;
-	color: black;
-	font-size: 10px;
-	align-items: center;
-	justify-content: center;
-	text-align: left;
+	
 
 }
 	
@@ -25,6 +41,9 @@ h1
 	text-align: center;
 	font-weight: normal;
 	color: sandybrown;
+	margin: 50px;
+	background-color: white;
+	border-radius: 25px;
 
 
 
